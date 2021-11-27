@@ -1,5 +1,6 @@
-﻿  moc Proyecto3GalleryTEC.h
-  Proyecto3GalleryTEC.cpp
+﻿  Proyecto3GalleryTEC.cpp
   main.cpp
+  qrc_Proyecto3GalleryTEC.cpp
   moc_Proyecto3GalleryTEC.cpp
-  Proyecto3GalleryTEC.vcxproj -> C:\Users\Isaac\Documents\GitHub\GalleryTEC\Proyecto3GalleryTEC\x64\Debug\Proyecto3GalleryTEC.exe
+  LINK : C:\Users\igarz\Downloads\GalleryTEC\Proyecto3GalleryTEC\x64\Debug\Proyecto3GalleryTEC.exe not found or not built by the last incremental link; performing full link
+  Proyecto3GalleryTEC.vcxproj -> C:\Users\igarz\Downloads\GalleryTEC\Proyecto3GalleryTEC\x64\Debug\Proyecto3GalleryTEC.exe
