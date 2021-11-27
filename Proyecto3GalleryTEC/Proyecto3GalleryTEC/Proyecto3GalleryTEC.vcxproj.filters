@@ -43,6 +43,9 @@
     <ClCompile Include="ImageViewer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Raid5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="ImageViewer.h">
@@ -53,5 +56,16 @@
     <QtUic Include="ImageViewer.ui">
       <Filter>Form Files</Filter>
     </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Raid5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mongodb_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

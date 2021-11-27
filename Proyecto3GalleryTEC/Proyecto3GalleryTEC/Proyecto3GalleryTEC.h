@@ -2,6 +2,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_Proyecto3GalleryTEC.h"
+#include "ImageViewer.h"
 
 
 
@@ -18,4 +19,5 @@ private slots:
 
 private:
     Ui::Proyecto3GalleryTECClass ui;
+    ImageViewer *imageViewer;
 };

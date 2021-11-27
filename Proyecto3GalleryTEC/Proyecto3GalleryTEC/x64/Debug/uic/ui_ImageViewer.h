@@ -31,6 +31,10 @@ public:
     QLabel *label_galeria;
     QLabel *label_nombre;
     QLabel *label_pic;
+    QPushButton *pushButton_rebuildC1;
+    QPushButton *pushButton_rebuildC2;
+    QPushButton *pushButton_rebuildC3;
+    QPushButton *pushButton_rebuildC4;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -62,6 +66,18 @@ public:
         label_pic = new QLabel(centralwidget);
         label_pic->setObjectName(QString::fromUtf8("label_pic"));
         label_pic->setGeometry(QRect(250, 50, 471, 301));
+        pushButton_rebuildC1 = new QPushButton(centralwidget);
+        pushButton_rebuildC1->setObjectName(QString::fromUtf8("pushButton_rebuildC1"));
+        pushButton_rebuildC1->setGeometry(QRect(210, 500, 75, 23));
+        pushButton_rebuildC2 = new QPushButton(centralwidget);
+        pushButton_rebuildC2->setObjectName(QString::fromUtf8("pushButton_rebuildC2"));
+        pushButton_rebuildC2->setGeometry(QRect(320, 500, 75, 23));
+        pushButton_rebuildC3 = new QPushButton(centralwidget);
+        pushButton_rebuildC3->setObjectName(QString::fromUtf8("pushButton_rebuildC3"));
+        pushButton_rebuildC3->setGeometry(QRect(430, 500, 75, 23));
+        pushButton_rebuildC4 = new QPushButton(centralwidget);
+        pushButton_rebuildC4->setObjectName(QString::fromUtf8("pushButton_rebuildC4"));
+        pushButton_rebuildC4->setGeometry(QRect(540, 500, 75, 23));
         ImageViewer->setCentralWidget(centralwidget);
         menubar = new QMenuBar(ImageViewer);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -86,6 +102,10 @@ public:
         label_galeria->setText(QApplication::translate("ImageViewer", "TextLabel", nullptr));
         label_nombre->setText(QApplication::translate("ImageViewer", "TextLabel", nullptr));
         label_pic->setText(QApplication::translate("ImageViewer", "TextLabel", nullptr));
+        pushButton_rebuildC1->setText(QApplication::translate("ImageViewer", "RebuildC1", nullptr));
+        pushButton_rebuildC2->setText(QApplication::translate("ImageViewer", "RebuildC2", nullptr));
+        pushButton_rebuildC3->setText(QApplication::translate("ImageViewer", "RebuildC3", nullptr));
+        pushButton_rebuildC4->setText(QApplication::translate("ImageViewer", "RebuildC4", nullptr));
     } // retranslateUi
 
 };

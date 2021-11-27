@@ -1,5 +1,9 @@
-﻿  moc ImageViewer.h
-  ImageViewer.cpp
-  main.cpp
-  moc_ImageViewer.cpp
+﻿  Raid5.cpp
+C:\Users\Isaac\Documents\GitHub\GalleryTEC\Proyecto3GalleryTEC\Proyecto3GalleryTEC\Raid5.cpp(65): warning C4715: 'Raid5::get_User': no todas las rutas de acceso de control devuelven un valor
   Proyecto3GalleryTEC.vcxproj -> C:\Users\Isaac\Documents\GitHub\GalleryTEC\Proyecto3GalleryTEC\x64\Debug\Proyecto3GalleryTEC.exe
+          1 archivo(s) copiado(s).
+          1 archivo(s) copiado(s).
+          1 archivo(s) copiado(s).
+          1 archivo(s) copiado(s).
+          1 archivo(s) copiado(s).
+          1 archivo(s) copiado(s).
