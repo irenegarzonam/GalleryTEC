@@ -2,26 +2,29 @@
 #include "ui_ImageViewer.h"
 
 ImageViewer::ImageViewer(QWidget* parent)
-    : QDialog(parent), ui(new Ui::ImageViewer*)
+    : QMainWindow(parent)
+    
 {
     ui.setupUi(this);
     QPixmap pix("/home/rpi/Desktop/Picture/Sample Pictures/Chrysanthemum.jpg");
-    ui->label_pic->setPixmap(pix);
+    ui.label_pic->setPixmap(pix);
 }
+
+
 
 void ImageViewer::changeEvent(QEvent* e)
 {
-    QDialog::changeEvent(e);
+    QMainWindow::changeEvent(e);
     switch (e->type()) {
     case QEvent::LanguageChange:
-        ui->retranslateUi(this);
+        ui.retranslateUi(this);
         break;
     default:
         break;
     }
 }
 
-void ImageViewer::on_pushButton_clicked()
+void ImageViewer::on_pushButton_browse_clicked()
 {
     //Code to open the image file
     QFileDialog dialog(this);
@@ -31,6 +34,6 @@ void ImageViewer::on_pushButton_clicked()
     if (!fileName.isEmpty())
     {
         QImage image(fileName);
-        ui->label_pic->setPixmap(QPixmap::fromImage(image));
+        ui.label_pic->setPixmap(QPixmap::fromImage(image));
     }
 }

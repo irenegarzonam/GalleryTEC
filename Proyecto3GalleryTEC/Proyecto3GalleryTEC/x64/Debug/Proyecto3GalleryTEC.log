@@ -1,6 +1,5 @@
-﻿  Proyecto3GalleryTEC.cpp
+﻿  moc ImageViewer.h
+  ImageViewer.cpp
   main.cpp
-  qrc_Proyecto3GalleryTEC.cpp
-  moc_Proyecto3GalleryTEC.cpp
-  LINK : C:\Users\igarz\Downloads\GalleryTEC\Proyecto3GalleryTEC\x64\Debug\Proyecto3GalleryTEC.exe not found or not built by the last incremental link; performing full link
-  Proyecto3GalleryTEC.vcxproj -> C:\Users\igarz\Downloads\GalleryTEC\Proyecto3GalleryTEC\x64\Debug\Proyecto3GalleryTEC.exe
+  moc_ImageViewer.cpp
+  Proyecto3GalleryTEC.vcxproj -> C:\Users\Isaac\Documents\GitHub\GalleryTEC\Proyecto3GalleryTEC\x64\Debug\Proyecto3GalleryTEC.exe

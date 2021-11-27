@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_ImageViewer_t {
     QByteArrayData data[3];
-    char stringdata0[35];
+    char stringdata0[42];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -32,11 +32,12 @@ struct qt_meta_stringdata_ImageViewer_t {
 static const qt_meta_stringdata_ImageViewer_t qt_meta_stringdata_ImageViewer = {
     {
 QT_MOC_LITERAL(0, 0, 11), // "ImageViewer"
-QT_MOC_LITERAL(1, 12, 21), // "on_pushButton_clicked"
-QT_MOC_LITERAL(2, 34, 0) // ""
+QT_MOC_LITERAL(1, 12, 28), // "on_pushButton_browse_clicked"
+QT_MOC_LITERAL(2, 41, 0) // ""
 
     },
-    "ImageViewer\0on_pushButton_clicked\0"
+    "ImageViewer\0on_pushButton_browse_clicked\0"
+    ""
 };
 #undef QT_MOC_LITERAL
 
@@ -68,7 +69,7 @@ void ImageViewer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         auto *_t = static_cast<ImageViewer *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->on_pushButton_clicked(); break;
+        case 0: _t->on_pushButton_browse_clicked(); break;
         default: ;
         }
     }
@@ -76,7 +77,7 @@ void ImageViewer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
 }
 
 QT_INIT_METAOBJECT const QMetaObject ImageViewer::staticMetaObject = { {
-    &QDialog::staticMetaObject,
+    &QMainWindow::staticMetaObject,
     qt_meta_stringdata_ImageViewer.data,
     qt_meta_data_ImageViewer,
     qt_static_metacall,
@@ -95,12 +96,12 @@ void *ImageViewer::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_ImageViewer.stringdata0))
         return static_cast<void*>(this);
-    return QDialog::qt_metacast(_clname);
+    return QMainWindow::qt_metacast(_clname);
 }
 
 int ImageViewer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QDialog::qt_metacall(_c, _id, _a);
+    _id = QMainWindow::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
